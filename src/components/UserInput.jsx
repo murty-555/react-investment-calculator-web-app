@@ -7,9 +7,9 @@ export default function UserInput({inputName, inputValue, onInputChange}) {
     }
     console.log(value)
   return (
-    <div>
+    <p>
       <label>{inputName}</label>
       <input type="number" onChange={handleChange} value={value} />
-    </div>
+    </p>
   );
 }
